@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff tracked the changes that were 
+    made between versions. It was easy for me to 
+    point out the bug, because it was part of one 
+    of the changes made between versions.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+    
+    Having access to the entire history of a file would allow me to track edits and changes made to each version. This helps if I realized that a previous version had an edit that I wanted in a newer version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    By manually choosing when to create a commit, a programmer is responsible for their own version control. When a document is automatically saved, the programmer is no longer responsible. Committing manually is useful because you can log the changes made and intentionally create versions. Committing manually can be bad when you forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control systems such as Git typically involve a project which spans multiple files. For example, in a machine learning project we may want to make a change to the code, get a new result, and update a text file with that update. Version control systems such as Google Docs are used for projects that typically only use one document, so there wouldn't be as much of a need to do version control over multiple documents.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to view each commit. You can use git diff to review the changes made between two commits in git.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control makes it easy to revert to a previous commit using git checkout. You can also use git diff to identify exactly which version you made the error in.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+There are two problems that occur while working on a large project. First, if a mistake is made while making edits to a project, it is laborious to compare the new version with the old version. 
+Secondly, when working with others, it is difficult to sync the edits multiple people made to the same document.
+
